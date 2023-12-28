@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "gameVersion": "3.23.14.2"
+    "gameVersion": "3.23.14.3"
   },
   "localization": {
     "Editor": {
@@ -3627,6 +3627,16 @@
         "emptyLine_2": "",
         "FlagText": "Successfully set {0} flag {1} to {2}!"
       },
+      "ServerCommandGSLT.dat": {
+        "RunningErrorText": "Cannot change login token while server running.",
+        "emptyLine_0": "",
+        "GSLTCommandText": "GSLT",
+        "GSLTInfoText": "GSLT [Login Token]",
+        "GSLTHelpText": "This sets the game server login token.",
+        "emptyLine_1": "",
+        "SetText": "Successfully set game server login token.",
+        "emptyLine_2": ""
+      },
       "ServerCommandGameMode.dat": {
         "NoModeErrorText": "Failed to find gamemode called {0}.",
         "RunningErrorText": "Failed to change gamemode while running.",
@@ -3661,16 +3671,6 @@
         "GoldHelpText": "This marks the server as joinable only by Gold members.",
         "emptyLine_1": "",
         "GoldText": "Successfully set gold status!"
-      },
-      "ServerCommandGSLT.dat": {
-        "RunningErrorText": "Cannot change login token while server running.",
-        "emptyLine_0": "",
-        "GSLTCommandText": "GSLT",
-        "GSLTInfoText": "GSLT [Login Token]",
-        "GSLTHelpText": "This sets the game server login token.",
-        "emptyLine_1": "",
-        "SetText": "Successfully set game server login token.",
-        "emptyLine_2": ""
       },
       "ServerCommandHelp.dat": {
         "NoCommandErrorText": "Failed to find a command called {0}.",
