@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.1.0",
-    "gameVersion": "3.24.1.0"
+    "gameVersion": "3.23.14.3"
   },
   "localization": {
     "Editor": {
-      "EditorDashboard.dat": {
+      "EditorDashboard": {
         "TerrainButtonText": "Terrain",
         "TerrainButtonTooltip": "Landscape",
         "EnvironmentButtonText": "Environment",
@@ -21,7 +21,7 @@
         "Nodes": "Move [{0}]",
         "Visibility": "Toggle [F1-F8]"
       },
-      "EditorEnvironment.dat": {
+      "EditorEnvironment": {
         "LightingButtonText": "Lighting",
         "LightingButtonTooltip": "Day/Night",
         "RoadsButtonText": "Roads",
@@ -31,7 +31,7 @@
         "NodesButtonText": "Nodes",
         "NodesButtonTooltip": "Ambience"
       },
-      "EditorEnvironmentLighting.dat": {
+      "EditorEnvironmentLighting": {
         "AzimuthSliderLabelText": "Azimuth",
         "BiasSliderLabelText": "Bias",
         "FadeSliderLabelText": "Fade",
@@ -68,7 +68,7 @@
         "Single_3": "Shadows",
         "Single_4": "Rays"
       },
-      "EditorEnvironmentNavigation.dat": {
+      "EditorEnvironmentNavigation": {
         "Width_Label": "Width",
         "Height_Label": "Height",
         "Nav_Label": "Nav",
@@ -80,7 +80,7 @@
         "Bake_Navigation": "Bake Navigation",
         "Bake_Navigation_Tooltip": "Generate Navigation"
       },
-      "EditorEnvironmentNodes.dat": {
+      "EditorEnvironmentNodes": {
         "Name_Label": "Location",
         "Radius_Label": "Radius",
         "Width_Label": "Width",
@@ -109,7 +109,7 @@
         "Airdrop": "Airdrop",
         "Effect": "Effect"
       },
-      "EditorEnvironmentRoads.dat": {
+      "EditorEnvironmentRoads": {
         "SelectionBoxLabelText": "Selection",
         "WidthFieldLabelText": "Width",
         "HeightFieldLabelText": "Height",
@@ -126,7 +126,7 @@
         "Aligned": "Aligned",
         "Free": "Free"
       },
-      "EditorLevel.dat": {
+      "EditorLevel": {
         "ObjectsButtonText": "Objects",
         "ObjectsButtonTooltip": "Objects",
         "VisibilityButtonText": "Visibility",
@@ -136,7 +136,7 @@
         "VolumesButtonText": "Volumes",
         "VolumesButtonTooltip": "Define 3D zones/areas."
       },
-      "EditorLevelObjects.dat": {
+      "EditorLevelObjects": {
         "SelectionBoxLabelText": "Selection",
         "Search_Field_Hint": "Object Name Filter",
         "Search": "Search",
@@ -163,7 +163,7 @@
         "MaterialIndexOverride_Label": "Material Index",
         "MaterialIndexOverride_Tooltip": "Overrides random index into material palette."
       },
-      "EditorLevelPlayers.dat": {
+      "EditorLevelPlayers": {
         "RadiusSliderLabelText": "Radius",
         "RotationSliderLabelText": "Angle",
         "AddButtonText": "Add [{0}]",
@@ -172,7 +172,7 @@
         "RemoveButtonTooltip": "Remove Spawnpoints",
         "AltLabelText": "Alt"
       },
-      "EditorLevelVisibility.dat": {
+      "EditorLevelVisibility": {
         "Roads_Label": "Roads [F1]",
         "Navigation_Label": "Navigation [F2]",
         "Nodes_Label": "Nodes [F3]",
@@ -187,7 +187,7 @@
         "Objects": "{0} - {1}%",
         "Triangles": "{0}"
       },
-      "EditorLevelVolumes.dat": {
+      "EditorLevelVolumes": {
         "SelectedType_Label": "Selected Type",
         "ActiveVisibility_Label": "Visibility",
         "Visibility_Hidden": "Hidden",
@@ -199,7 +199,7 @@
         "RefreshCullingVolumes_Tooltip": "Update which objects are inside culling volumes.",
         "PreviewCulling": "Preview Culling"
       },
-      "EditorPause.dat": {
+      "EditorPause": {
         "Save_Button": "Save",
         "Save_Button_Tooltip": "Save",
         "Map_Button": "Bake Satelite",
@@ -213,7 +213,7 @@
         "Exit_Button": "Exit",
         "Exit_Button_Tooltip": "Exit"
       },
-      "EditorSpawns.dat": {
+      "EditorSpawns": {
         "AnimalsButtonText": "Animals",
         "AnimalsButtonTooltip": "Animals",
         "ItemsButtonText": "Items",
@@ -223,7 +223,7 @@
         "VehiclesButtonText": "Vehicles",
         "VehiclesButtonTooltip": "Vehicles"
       },
-      "EditorSpawnsAnimals.dat": {
+      "EditorSpawnsAnimals": {
         "TableNameFieldLabelText": "Table",
         "AddTableButtonText": "Add",
         "AddTableButtonTooltip": "Create Table",
@@ -247,7 +247,7 @@
         "RemoveButtonText": "Sub [{0}]",
         "RemoveButtonTooltip": "Remove Spawnpoints"
       },
-      "EditorSpawnsItems.dat": {
+      "EditorSpawnsItems": {
         "TableNameFieldLabelText": "Table",
         "AddTableButtonText": "Add",
         "AddTableButtonTooltip": "Create Table",
@@ -271,7 +271,7 @@
         "RemoveButtonText": "Sub [{0}]",
         "RemoveButtonTooltip": "Remove Spawnpoints"
       },
-      "EditorSpawnsVehicles.dat": {
+      "EditorSpawnsVehicles": {
         "TableNameFieldLabelText": "Table",
         "AddTableButtonText": "Add",
         "AddTableButtonTooltip": "Create Table",
@@ -296,7 +296,7 @@
         "RemoveButtonText": "Sub [{0}]",
         "RemoveButtonTooltip": "Remove Spawnpoints"
       },
-      "EditorSpawnsZombies.dat": {
+      "EditorSpawnsZombies": {
         "TableNameFieldLabelText": "Table",
         "AddTableButtonText": "Add",
         "AddTableButtonTooltip": "Create Table",
@@ -326,7 +326,7 @@
         "Slot_2": "Hat",
         "Slot_3": "Gear"
       },
-      "EditorTerrain.dat": {
+      "EditorTerrain": {
         "HeightButtonText": "Heights",
         "HeightButtonTooltip": "Heightmaps",
         "MaterialsButtonText": "Materials",
@@ -336,7 +336,7 @@
         "TilesButton_Label": "Tiles",
         "TilesButton_Tooltip": "Manage terrain chunks."
       },
-      "EditorTerrainDetails.dat": {
+      "EditorTerrainDetails": {
         "MaxPreviewSamples": "Max Preview Samples",
         "DensityTarget": "Density Target",
         "BrushStrength": "Brush Strength [{0}]",
@@ -361,7 +361,7 @@
         "SearchHint": "Name Filter",
         "Hint_Paint": "Remove: [{0}] Remove selected: [{1}] Remove baked: [{2}]"
       },
-      "EditorTerrainHeight.dat": {
+      "EditorTerrainHeight": {
         "Mode_Adjust": "Raise/Lower [{0}]",
         "Mode_Flatten": "Flatten [{0}]",
         "Mode_Smooth": "Smooth [{0}]",
@@ -383,7 +383,7 @@
         "Hint_Flatten": "Sample height under cursor: [{0}]",
         "Hint_Ramp": "Cancel: [{0}]"
       },
-      "EditorTerrainMaterials.dat": {
+      "EditorTerrainMaterials": {
         "Mode_Paint": "Paint [{0}]",
         "Mode_Auto": "Auto [{0}]",
         "Mode_Smooth": "Smooth [{0}]",
@@ -413,7 +413,7 @@
         "Hint_Paint": "Remove selected: [{0}] Use weight target: [{1}] Sample material under cursor: [{2}]",
         "Hint_Cut": "Repair: [{0}]"
       },
-      "EditorTerrainTiles.dat": {
+      "EditorTerrainTiles": {
         "Hint_Remove": "Remove selected: [{0}]",
         "RepairEdges_Label": "Repair Edges",
         "RepairEdges_Tooltip": "Useful if an error has desynchronized heightmap edges between tiles. If that happens please report it as a bug!",
@@ -444,7 +444,7 @@
     },
     "Menu": {
       "Configuration": {
-        "MenuConfiguration.dat": {
+        "MenuConfiguration": {
           "Options_Button_Text": "Options",
           "Options_Button_Tooltip": "Options",
           "Graphics_Button_Text": "Graphics",
@@ -454,7 +454,7 @@
           "Controls_Button_Text": "Controls",
           "Controls_Button_Tooltip": "Controls"
         },
-        "MenuConfigurationControls.dat": {
+        "MenuConfigurationControls": {
           "Sensitivity_Field_Label": "Mouse Aim Sensitivity (Degrees per Pixel)",
           "Invert_Toggle_Label": "Invert Look",
           "Invert_Flight_Toggle_Label": "Invert Flight",
@@ -562,7 +562,7 @@
           "Key_73_Button": "Item #10 [{0}]",
           "Key_74_Button": "Release Cursor [{0}]"
         },
-        "MenuConfigurationDisplay.dat": {
+        "MenuConfigurationDisplay": {
           "Buffer_Toggle_Label": "VSync",
           "User_Interface_Scale_Field_Label": "UI Scale",
           "UseTargetFrameRate_Toggle_Label": "Limit Framerate",
@@ -573,7 +573,7 @@
           "Fullscreen_Mode_Borderless": "Borderless",
           "Fullscreen_Mode_Windowed": "Windowed"
         },
-        "MenuConfigurationGraphics.dat": {
+        "MenuConfigurationGraphics": {
           "Ambient_Occlusion_Label": "Ambient Occlusion",
           "Ambient_Occlusion_Tooltip": "Soft shading near corners and contacts.",
           "Bloom_Toggle_Label": "Bloom",
@@ -678,7 +678,7 @@
           "Perf_Dual_Render_Scope": "Dual-render scopes require drawing the scene again zoomed-in, halving performance.",
           "Perf_SpeedTrees": "SpeedTrees will significantly affect performance. Basic models are recommended for most hardware."
         },
-        "MenuConfigurationOptions.dat": {
+        "MenuConfigurationOptions": {
           "FOV_Slider_LabelV2_Name": "Field of View",
           "FOV_Slider_LabelV2_Value": "Horizontal [{0}°] Vertical [{1}°]",
           "Volume_Slider_Label": "Master Volume [{0}%]",
@@ -745,12 +745,12 @@
           "Bad_Color_Box": "Negative Color"
         }
       },
-      "MenuCredits.dat": {
+      "MenuCredits": {
         "Header_Unturned": "Unturned",
         "Header_CommunityTeam": "Community Team",
         "Header_MapCreators": "Map Creators"
       },
-      "MenuDashboard.dat": {
+      "MenuDashboard": {
         "PlayButtonText": "Play",
         "PlayButtonTooltip": "Play",
         "SurvivorsButtonText": "Survivors",
@@ -875,10 +875,6 @@
         "SteamNetworkingSockets_EndReason_Misc_SteamConnectivity": "Steam is experiencing connectivity issues.",
         "SteamNetworkingSockets_EndReason_Misc_Unknown": "Unknown miscellaneous connection error: {0}",
         "SteamNetworkingSockets_EndReason_Unknown": "Connected ended for unknown reason: {0}",
-        "UGC_NeedsToAcceptWorkshopLegalAgreement": "Failed to create or update item because you need to accept the newest Steam Workshop legal agreement.",
-        "UGC_UnknownResult": "Failed to create or update item. Steam error code: {0}",
-        "UGC_IOError": "Failed to create or update item because of an unknown I/O issue.",
-        "UGC_Success": "Successfully submitted to Steam!",
         "Pro_Title": "Permanent Gold Upgrade",
         "Pro_Button": "Gain access to extra character customization, premium servers, character slots and more by upgrading to a Gold account! Further details available on the store page.",
         "Pro_Button_Tooltip": "Click here to view the store page.",
@@ -892,7 +888,7 @@
         "Copy_Notification_Label": "Copy to Clipboard",
         "Copy_Notification_Tooltip": "Copy message to system clipboard."
       },
-      "MenuLoading.dat": {
+      "MenuLoading": {
         "VAC_Secure": "VAC Secure",
         "VAC_Insecure": "VAC Insecure",
         "BattlEye_Secure": "BattlEye Required",
@@ -919,7 +915,7 @@
         "Collaborators": "Created in collaboration with:",
         "Thanks": "Special thanks to:"
       },
-      "MenuPause.dat": {
+      "MenuPause": {
         "Return_Button": "Return",
         "Return_Button_Tooltip": "Return",
         "Exit_Button": "Quit",
@@ -942,7 +938,7 @@
         "Wiki_Button_Tooltip": "Community-run library. ",
         "Overlay": "Steam overlay needs to be enabled."
       },
-      "MenuTips.dat": {
+      "MenuTips": {
         "Tip": "Tip: {0}",
         "Hotkey": "You can hotkey an item in your hands slot by right-clicking it and then pressing a number key [3-9].",
         "Equip": "You can quickly equip an item by holding [{0}] while right-clicking it.",
@@ -977,7 +973,7 @@
         "Steady": "You can steady your scope by holding [{0}] while aiming. Remember to account for bullet drop and travel time!",
         "Streamer": "You can customize the names used in streamer mode by modifying StreamerNames.json, maybe with viewer/subscriber names!"
       },
-      "MenuTitle.dat": {
+      "MenuTitle": {
         "Author_Label": "by {1}    //    Version {0}",
         "Stat_Kills_Zombies_Normal": "You have killed {0} normal zombies! Players worldwide have killed {1}!",
         "Stat_Kills_Players": "You have killed {0} players! Players worldwide have killed {1}!",
@@ -999,7 +995,7 @@
         "Stat_Found_Throwables": "You have thrown {0} projectiles! Players worldwide have thrown {1}!"
       },
       "Play": {
-        "MenuPlay.dat": {
+        "MenuPlay": {
           "ConnectButtonText": "Connect Directly",
           "ConnectButtonTooltip": "Connect by server code or to a known address and port.",
           "ServersButtonText": "Multiplayer",
@@ -1009,13 +1005,9 @@
           "LobbiesButtonText": "Lobby",
           "LobbiesButtonTooltip": "Form a party with your friends to join the same server as a group.",
           "TutorialButtonText": "Tutorial",
-          "TutorialButtonTooltip": "Learn the gameplay basics.",
-          "Tutorial_Confirm_Label": "Play",
-          "Tutorial_Confirm_Tooltip": "Proceed with opening the tutorial.",
-          "Tutorial_Deny_Label": "Cancel",
-          "Tutorial_Deny_Tooltip": "Cancel opening the tutorial.  "
+          "TutorialButtonTooltip": "Tutorial"
         },
-        "MenuPlayConfig.dat": {
+        "MenuPlayConfig": {
           "Items": "Items",
           "Vehicles": "Vehicles",
           "Zombies": "Zombies",
@@ -1195,7 +1187,7 @@
           "ThirdPerson_RecoilMultiplier": "Third-Person Recoil Multiplier",
           "ThirdPerson_SpreadMultiplier": "Third-Person Spread Multiplier"
         },
-        "MenuPlayConnect.dat": {
+        "MenuPlayConnect": {
           "Host_Field_Label": "Host or Server Code",
           "Host_Field_Tooltip": "Can be a server code shared with you, domain name, or IP address.",
           "Port_Field_Label": "Port",
@@ -1221,14 +1213,14 @@
           "ServerCode_Invalid_Tooltip": "This appears to be a server code, but does not refer to a game server.",
           "ServerCode_Friend_Tooltip": "This is a Steam friend code, not a server code."
         },
-        "MenuPlayLobbies.dat": {
+        "MenuPlayLobbies": {
           "Members": "Members:",
           "Invite_Button": "Invite Friend",
           "Invite_Button_Tooltip": "Open Friend Overlay",
           "Waiting": "Waiting for lobby...",
           "Overlay": "Steam overlay needs to be enabled."
         },
-        "MenuPlayServerInfo.dat": {
+        "MenuPlayServerInfo": {
           "Password_Field_Label": "Password",
           "Password_Field_Replace": "#",
           "Join_Button": "Join",
@@ -1296,7 +1288,7 @@
           "NotLoggedInBlock_Label": "This server is not logged in.",
           "NotLoggedInBlock_Tooltip": "Cannot join over the internet because GSLT is not set."
         },
-        "MenuPlayServers.dat": {
+        "MenuPlayServers": {
           "Columns_Tooltip": "Change visible columns.",
           "Server_Button": "{0} on {1}",
           "Server_Players": "{0} of {1}",
@@ -1512,7 +1504,7 @@
           "Favorite_On_Button_Tooltip": "Favorite",
           "Favorite_Off_Button_Tooltip": "Unfavorite"
         },
-        "MenuPlaySingleplayer.dat": {
+        "MenuPlaySingleplayer": {
           "Play_Button": "Play Offline",
           "Play_Button_Tooltip": "Travel to this map.",
           "Browse_Servers_Label": "Browse Servers",
@@ -1567,7 +1559,7 @@
           "Feedback_Button_Tooltip": "Click here to view discussions.",
           "Overlay": "Steam overlay needs to be enabled."
         },
-        "MenuServerPassword.dat": {
+        "MenuServerPassword": {
           "Explanation": "This server is password protected. Please enter the password to continue:",
           "Password_Label": "Password",
           "Show_Password_Label": "Show Password",
@@ -1576,7 +1568,7 @@
         }
       },
       "Survivors": {
-        "ItemStoreMenu.dat": {
+        "ItemStoreMenu": {
           "ViewCart_Label": "View Cart",
           "ViewCart_Tooltip": "View items in your shopping cart.",
           "AddToCart_Label": "Add to Cart",
@@ -1600,7 +1592,7 @@
           "FilterFeaturedButton_Label": "Featured",
           "FilterFeaturedButton_Tooltip": "View popular items."
         },
-        "MenuSurvivors.dat": {
+        "MenuSurvivors": {
           "CharacterButtonText": "Character",
           "CharacterButtonTooltip": "Character",
           "AppearanceButtonText": "Appearance",
@@ -1610,7 +1602,7 @@
           "ClothingButtonText": "Inventory",
           "ClothingButtonTooltip": "Inventory"
         },
-        "MenuSurvivorsAppearance.dat": {
+        "MenuSurvivorsAppearance": {
           "Skin_Box": "Skin Color",
           "Skin_Box_Tooltip": "Skin",
           "Color_Box": "Hair Color",
@@ -1624,7 +1616,7 @@
           "Right": "Right Handed",
           "Left": "Left Handed"
         },
-        "MenuSurvivorsCharacter.dat": {
+        "MenuSurvivorsCharacter": {
           "Name_Label": "{0}",
           "Nick_Label": "[{0}]",
           "Name_Field_Label": "Public Name",
@@ -1643,7 +1635,7 @@
           "Skillset_Box_Label": "Skillset:",
           "Overlay": "Steam overlay needs to be enabled."
         },
-        "MenuSurvivorsClothing.dat": {
+        "MenuSurvivorsClothing": {
           "Page": "{0} of {1}",
           "Search_Field_Hint": "Item Name Filter",
           "Search": "Search",
@@ -1702,7 +1694,7 @@
           "No_Items": "Waiting for Steam inventory response...",
           "Overlay": "Steam overlay needs to be enabled."
         },
-        "MenuSurvivorsClothingBox.dat": {
+        "MenuSurvivorsClothingBox": {
           "Key_Text": "Key",
           "Key_Tooltip": "Click here to view the store page.",
           "Unbox_Text": "Unbox",
@@ -1723,7 +1715,7 @@
           "Rarity_Equalized": "Item Chances: Equalized",
           "Rarity_Bonus_Items": "Bonus Item Chance: {0}%"
         },
-        "MenuSurvivorsClothingDelete.dat": {
+        "MenuSurvivorsClothingDelete": {
           "Intent_Delete": "Are you sure you want to delete \"{0}\"?",
           "Intent_Salvage": "Are you sure you want to salvage \"{0}\"?",
           "Intent_Tag_Tool": "Are you sure you want to apply \"{0}\" to \"{1}\"?",
@@ -1740,7 +1732,7 @@
           "No": "No",
           "No_Tooltip": "Keep Item"
         },
-        "MenuSurvivorsClothingItem.dat": {
+        "MenuSurvivorsClothingItem": {
           "Equip_Text": "Equip",
           "Equip_Tooltip": "Equip on your character.",
           "Dequip_Text": "Dequip",
@@ -1760,7 +1752,7 @@
           "Overlay": "Steam overlay needs to be enabled.",
           "Unknown": "Either your game is out of date (download the update) or something went horribly wrong!"
         },
-        "MenuSurvivorsGroup.dat": {
+        "MenuSurvivorsGroup": {
           "Nick_Field_Label": "Private Name",
           "Marker_Color_Box": "Marker Color",
           "Group_Box_Label": "Group",
@@ -1768,7 +1760,7 @@
         }
       },
       "Workshop": {
-        "MenuWorkshop.dat": {
+        "MenuWorkshop": {
           "BrowseButtonText": "Browse",
           "BrowseButtonTooltip": "View Community Creations",
           "SubmitButtonText": "Submit",
@@ -1787,7 +1779,7 @@
           "DocsButtonTooltip": "Read Developer Documentation",
           "Overlay": "Steam overlay needs to be enabled."
         },
-        "MenuWorkshopEditor.dat": {
+        "MenuWorkshopEditor": {
           "Name_Field_Label": "Map",
           "Add_Button": "Create",
           "Add_Button_Tooltip": "Create new map",
@@ -1811,7 +1803,7 @@
           "VR_Hint_0": "Launch with -VR for VR menu",
           "VR_Hint_1": "Disable desktop theater!"
         },
-        "MenuWorkshopError.dat": {
+        "MenuWorkshopError": {
           "Header": "Workshop error logs:",
           "No_Errors": "No major issues found in your loaded files.",
           "BrowseLogs_Label": "Browse Log Files",
@@ -1819,13 +1811,13 @@
           "Refresh": "Reload",
           "Refresh_Tooltip": "Reloads errors."
         },
-        "MenuWorkshopLocalization.dat": {
+        "MenuWorkshopLocalization": {
           "Header": "Comparing between {0} and {1} differences:",
           "No_Differences": "No major differences found in your localization files.",
           "Refresh": "Reload",
           "Refresh_Tooltip": "Reloads localization and compares differences."
         },
-        "MenuWorkshopSpawns.dat": {
+        "MenuWorkshopSpawns": {
           "Type_Tooltip": "Target Asset Type",
           "Type_Item": "Items",
           "Type_Vehicle": "Vehicles",
@@ -1858,7 +1850,7 @@
           "Weight_Tooltip": "Weight",
           "Chance_Tooltip": "Chance"
         },
-        "MenuWorkshopSubmit.dat": {
+        "MenuWorkshopSubmit": {
           "Name_Field_Label": "Name",
           "Description_Field_Label": "Description",
           "Path_Field_Label": "Collection Path",
@@ -1987,7 +1979,7 @@
           "PreviewFieldNotification_Extension": "Image must be a .png or a .jpg.",
           "PreviewFieldNotification_FileSize": "Image file size is too large."
         },
-        "MenuWorkshopSubscriptions.dat": {
+        "MenuWorkshopSubscriptions": {
           "Header": "Subscribed Files:",
           "Enable_Warning": "Note enabling and disabling files takes effect after restarting game.",
           "No_Subscriptions": "Not subscribed to any files.",
@@ -2009,7 +2001,7 @@
       }
     },
     "Player": {
-      "PlayerBarricadeLibrary.dat": {
+      "PlayerBarricadeLibrary": {
         "Capacity_Text": "{0}/{1}",
         "Capacity_Label": "Capacity",
         "Wallet_Label": "Available",
@@ -2026,7 +2018,7 @@
         "No_Button": "Cancel",
         "No_Button_Tooltip": "Erase Changes"
       },
-      "PlayerBarricadeMannequin.dat": {
+      "PlayerBarricadeMannequin": {
         "Cosmetics_Button": "Apply Cosmetics",
         "Cosmetics_Button_Tooltip": "Display Cosmetics",
         "Add_Button": "Put Equipped [{0}]",
@@ -2044,27 +2036,27 @@
         "Classic": "Classic Pose",
         "Lie": "Relaxed Pose"
       },
-      "PlayerBarricadeSign.dat": {
+      "PlayerBarricadeSign": {
         "Yes_Button": "Write",
         "Yes_Button_Tooltip": "Save Changes",
         "No_Button": "Cancel",
         "No_Button_Tooltip": "Erase Changes"
       },
-      "PlayerBarricadeStereo.dat": {
+      "PlayerBarricadeStereo": {
         "Stop_Button": "Stop",
         "Stop_Button_Tooltip": "Pause Playback",
         "Close_Button": "Close",
         "Close_Button_Tooltip": "Hide",
         "Volume_Slider_Label": "Volume: {0}%"
       },
-      "PlayerBrowserRequest.dat": {
+      "PlayerBrowserRequest": {
         "Request": "The server asks you to open this link in the Steam overlay:",
         "Yes_Button": "Accept",
         "Yes_Button_Tooltip": "View Page",
         "No_Button": "Reject",
         "No_Button_Tooltip": "Ignore Request"
       },
-      "PlayerDashboard.dat": {
+      "PlayerDashboard": {
         "Inventory": "Inventory [{0}]",
         "Inventory_Tooltip": "Inventory",
         "Crafting": "Craft [{0}]",
@@ -2075,7 +2067,7 @@
         "Information_Tooltip": "Information",
         "Crafting_Disabled": "DISABLED"
       },
-      "PlayerDashboardCrafting.dat": {
+      "PlayerDashboardCrafting": {
         "Type_0_Tooltip": "Tools",
         "Type_1_Tooltip": "Apparel",
         "Type_2_Tooltip": "Supplies",
@@ -2097,19 +2089,13 @@
         "Craft": "Craft",
         "Craft_All": "Craft All"
       },
-      "PlayerDashboardInformation.dat": {
+      "PlayerDashboardInformation": {
         "Zoom_In_Button": "Zoom In",
         "Zoom_In_Button_Tooltip": "Scale Up",
         "Zoom_Out_Button": "Zoom Out",
         "Zoom_Out_Button_Tooltip": "Scale Down",
         "Center_Button": "Center",
         "Center_Button_Tooltip": "Focus Player",
-        "ShowMarkersToggle_Label": "Show Markers",
-        "ShowMarkersToggle_Tooltip": "Toggle visibility of markers placed on the map.",
-        "ShowPlayerNamesToggle_Label": "Show Player Names",
-        "ShowPlayerNamesToggle_Tooltip": "Toggle visibility of other players' names.",
-        "ShowPlayerAvatarsToggle_Label": "Show Player Avatars",
-        "ShowPlayerAvatarsToggle_Tooltip": "Toggle visibility of other players' avatars.",
         "Chart": "Chart",
         "Satellite": "Satellite",
         "Quests": "Quests: {0}",
@@ -2178,7 +2164,7 @@
         "Rep_Bandit": "Bandit",
         "Rep_Villain": "Villain"
       },
-      "PlayerDashboardInventory.dat": {
+      "PlayerDashboardInventory": {
         "Rarity_0": "Common",
         "Rarity_1": "Uncommon",
         "Rarity_2": "Rare",
@@ -2429,7 +2415,7 @@
         "Rot_Y": "Y++",
         "Rot_Z": "Z++"
       },
-      "PlayerDashboardSkills.dat": {
+      "PlayerDashboardSkills": {
         "Speciality_0_Tooltip": "Offense",
         "Speciality_1_Tooltip": "Defense",
         "Speciality_2_Tooltip": "Support",
@@ -2623,7 +2609,7 @@
         "Level_9": "IX",
         "Level_10": "X"
       },
-      "PlayerDeath.dat": {
+      "PlayerDeath": {
         "Home_Button": "Home",
         "Home_Button_Timer": "Home [{0}]",
         "Home_Button_Tooltip": "Respawn at a claimed bed.",
@@ -2665,7 +2651,7 @@
         "Spit": "You were dissolved by a zombie!",
         "Spark": "You were electrocuted by a zombie!"
       },
-      "PlayerLife.dat": {
+      "PlayerLife": {
         "Space": "Missing Space",
         "Item": "Pickup {0} [{1}]",
         "Vehicle_Enter_Locked": "Enter {0} [{1}] [Locked]",
@@ -2819,11 +2805,11 @@
         "Stat_Tracker_Total_Kills": "Total Kills [{0}]",
         "Stat_Tracker_Player_Kills": "Player Kills [{0}]"
       },
-      "PlayerNPCDialogue.dat": {
+      "PlayerNPCDialogue": {
         "Goodbye": "Goodbye",
         "Page": "[{0}]"
       },
-      "PlayerNPCQuest.dat": {
+      "PlayerNPCQuest": {
         "Conditions": "Goals:",
         "Rewards": "Rewards:",
         "Condition_Experience": "{0}/{1} Experience",
@@ -2860,7 +2846,7 @@
         "Return": "Return",
         "Return_Tooltip": "Exit Quest"
       },
-      "PlayerNPCVendor.dat": {
+      "PlayerNPCVendor": {
         "Experience": "Experience: {0}",
         "Return": "Return",
         "Return_Tooltip": "Exit Store",
@@ -2871,7 +2857,7 @@
         "Price": "Price: {0}",
         "Cost": "Cost: {0}"
       },
-      "PlayerPause.dat": {
+      "PlayerPause": {
         "Return_Button_Text": "Return",
         "Return_Button_Tooltip": "Return",
         "Options_Button_Text": "Options",
@@ -2913,7 +2899,7 @@
         "Quicksave_Button_Tooltip": "Manually Save (Note that the game does autosave during exit.)"
       },
       "Useable": {
-        "PlayerUseableGun.dat": {
+        "PlayerUseableGun": {
           "Sight_Hook_Tooltip": "Sight",
           "Tactical_Hook_Tooltip": "Tactical",
           "Grip_Hook_Tooltip": "Grip",
@@ -2928,7 +2914,7 @@
           "Auto": "Auto",
           "Burst": "Burst"
         },
-        "PlayerUseableHousingPlanner.dat": {
+        "PlayerUseableHousingPlanner": {
           "Floors": "Floors",
           "Roofs": "Roofs",
           "Walls": "Walls",
@@ -2938,7 +2924,7 @@
       }
     },
     "Server": {
-      "ServerCommandAdmin.dat": {
+      "ServerCommandAdmin": {
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to admin player while not running.",
         "AdminCommandText": "Admin",
@@ -2946,7 +2932,7 @@
         "AdminHelpText": "This adds the specified player to the list of users allowed to use admin commands in the chat.",
         "AdminText": "Successfully admined {0}!"
       },
-      "ServerCommandAdmins.dat": {
+      "ServerCommandAdmins": {
         "NoAdminsErrorText": "Failed to find any admins.",
         "AdminsCommandText": "Admins",
         "AdminsInfoText": "Admins",
@@ -2955,13 +2941,13 @@
         "AdminNameText": "PlayerID: {0}",
         "AdminJudgeText": "JudgeID: {0}"
       },
-      "ServerCommandAirdrop.dat": {
+      "ServerCommandAirdrop": {
         "AirdropCommandText": "Airdrop",
         "AirdropInfoText": "Airdrop",
         "AirdropHelpText": "This forces a dropship to fly over and perform an airdrop.",
         "AirdropText": "Successfully set airdrop!"
       },
-      "ServerCommandAnimal.dat": {
+      "ServerCommandAnimal": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[AnimalID].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "InvalidAnimalIDErrorText": "Failed to convert {0} into an AnimalID.",
@@ -2974,7 +2960,7 @@
         "AnimalHelpText": "This gives a player an animal.",
         "AnimalText": "Successfully gave {0} {1}!"
       },
-      "ServerCommandArmor.dat": {
+      "ServerCommandArmor": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Barricade Multiplier]/[Structure Multiplier].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "ArmorCommandText": "Armor",
@@ -2982,7 +2968,7 @@
         "ArmorHelpText": "This assigns the barricade and structure damage multiplier where 0 is no damage, 0.5 is 50% damage and 1 is 100%. ",
         "ArmorText": "Successfully set armor!"
       },
-      "ServerCommandBan.dat": {
+      "ServerCommandBan": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Reason]/[Duration].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
@@ -2994,7 +2980,7 @@
         "BanTextPermanent": "Successfully permabanned {0}!",
         "BanTextReason": "unspecified"
       },
-      "ServerCommandBans.dat": {
+      "ServerCommandBans": {
         "NoBansErrorText": "Failed to find any bans.",
         "BansCommandText": "Bans",
         "BansInfoText": "Bans",
@@ -3004,7 +2990,7 @@
         "BanJudgeText": "JudgeID: {0}",
         "BanStatusText": "Reason: {0} Duration: {1} Remaining: {2}"
       },
-      "ServerCommandBind.dat": {
+      "ServerCommandBind": {
         "InvalidIPErrorText": "Failed to convert {0} into an IP.",
         "RunningErrorText": "Failed to bind IP while running.",
         "BindCommandText": "Bind",
@@ -3012,7 +2998,7 @@
         "BindHelpText": "This binds a specific internal IP to the socket.",
         "BindText": "Successfully bound IP to {0}!"
       },
-      "ServerCommandCamera.dat": {
+      "ServerCommandCamera": {
         "NoCameraErrorText": "Failed to find perspective called {0}.",
         "RunningErrorText": "Failed to change perspective while running.",
         "CameraCommandText": "Perspective",
@@ -3024,7 +3010,7 @@
         "CameraBoth": "Both",
         "CameraVehicle": "Vehicle"
       },
-      "ServerCommandChatrate.dat": {
+      "ServerCommandChatrate": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "MinNumberErrorText": "Failed to make timeout less than {0}.",
         "MaxNumberErrorText": "Failed to make timeout greater than {0}.",
@@ -3033,14 +3019,14 @@
         "ChatrateHelpText": "This assigns a minimum time between chat messages.",
         "ChatrateText": "Successfully set chatrate to {0}!"
       },
-      "ServerCommandCheats.dat": {
+      "ServerCommandCheats": {
         "RunningErrorText": "Failed to enable cheats while running.",
         "CheatsCommandText": "Cheats",
         "CheatsInfoText": "Cheats",
         "CheatsHelpText": "This allows the use of cheats like spawning items, vehicles and experience.",
         "CheatsText": "Successfully enabled cheats."
       },
-      "ServerCommandCycle.dat": {
+      "ServerCommandCycle": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "HordeErrorText": "Failed to set cycle on a horde map.",
         "ArenaErrorText": "Failed to set cycle on an arena map.",
@@ -3049,7 +3035,7 @@
         "CycleText": "Successfully set cycle to {0}!",
         "CycleHelpText": "This assigns the length of the day/night cycle in seconds."
       },
-      "ServerCommandDay.dat": {
+      "ServerCommandDay": {
         "DayCommandText": "Day",
         "DayInfoText": "Day",
         "DayHelpText": "This assigns the current time to day.",
@@ -3058,7 +3044,7 @@
         "ArenaErrorText": "Failed to set time on an arena map.",
         "DayText": "Successfully set time to day!"
       },
-      "ServerCommandDebug.dat": {
+      "ServerCommandDebug": {
         "NotRunningErrorText": "Failed to check debug info while not running.",
         "DebugCommandText": "Debug",
         "DebugInfoText": "Debug",
@@ -3069,7 +3055,7 @@
         "DebugZombiesText": "Active zombies: {0}",
         "DebugAnimalsText": "Active animals: {0}"
       },
-      "ServerCommandDecay.dat": {
+      "ServerCommandDecay": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Barricade Duration]/[Structure Duration].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "DecayCommandText": "Decay",
@@ -3077,12 +3063,12 @@
         "DecayHelpText": "This assigns the barricade and structure decay in seconds. Disables decay when set to 0.",
         "DecayText": "Successfully set decay!"
       },
-      "ServerCommandEffectUI.dat": {
+      "ServerCommandEffectUI": {
         "EffectCommandText": "EffectUI",
         "EffectInfoText": "EffectUI [EffectID]",
         "EffectHelpText": "This spawns a UI effect for the executing player."
       },
-      "ServerCommandExperience.dat": {
+      "ServerCommandExperience": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Experience].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
@@ -3093,14 +3079,14 @@
         "ExperienceHelpText": "This gives a player some experience.",
         "ExperienceText": "Successfully gave {0} +{1} experience!"
       },
-      "ServerCommandFilter.dat": {
+      "ServerCommandFilter": {
         "RunningErrorText": "Failed to enable filter while running.",
         "FilterCommandText": "Filter",
         "FilterInfoText": "Filter",
         "FilterHelpText": "This filters out players with non-English-alphanumeric names.",
         "FilterText": "Successfully enabled name filter."
       },
-      "ServerCommandFlag.dat": {
+      "ServerCommandFlag": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Flag]/[Value].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
@@ -3111,14 +3097,7 @@
         "FlagHelpText": "This sets a player's flag.",
         "FlagText": "Successfully set {0} flag {1} to {2}!"
       },
-      "ServerCommandGSLT.dat": {
-        "RunningErrorText": "Cannot change login token while server running.",
-        "GSLTCommandText": "GSLT",
-        "GSLTInfoText": "GSLT [Login Token]",
-        "GSLTHelpText": "This sets the game server login token.",
-        "SetText": "Successfully set game server login token."
-      },
-      "ServerCommandGameMode.dat": {
+      "ServerCommandGameMode": {
         "NoModeErrorText": "Failed to find gamemode called {0}.",
         "RunningErrorText": "Failed to change gamemode while running.",
         "GameModeCommandText": "GameMode",
@@ -3126,7 +3105,7 @@
         "GameModeHelpText": "This assigns the game mode of the server.",
         "GameModeText": "Successfully set gamemode to {0}!"
       },
-      "ServerCommandGive.dat": {
+      "ServerCommandGive": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[ItemID]/[Amount].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "InvalidItemIDErrorText": "Failed to convert {0} into an ItemID.",
@@ -3139,28 +3118,35 @@
         "GiveHelpText": "This gives a player an item.",
         "GiveText": "Successfully gave {0} {1} x{2}!"
       },
-      "ServerCommandGold.dat": {
+      "ServerCommandGold": {
         "RunningErrorText": "Failed to change gold status while running.",
         "GoldCommandText": "Gold",
         "GoldInfoText": "Gold",
         "GoldHelpText": "This marks the server as joinable only by Gold members.",
         "GoldText": "Successfully set gold status!"
       },
-      "ServerCommandHelp.dat": {
+      "ServerCommandGSLT": {
+        "RunningErrorText": "Cannot change login token while server running.",
+        "GSLTCommandText": "GSLT",
+        "GSLTInfoText": "GSLT [Login Token]",
+        "GSLTHelpText": "This sets the game server login token.",
+        "SetText": "Successfully set game server login token."
+      },
+      "ServerCommandHelp": {
         "NoCommandErrorText": "Failed to find a command called {0}.",
         "HelpCommandText": "Help",
         "HelpInfoText": "Help [Command]",
         "HelpHelpText": "This provides information on commands.",
         "HelpText": "Commands:"
       },
-      "ServerCommandHideAdmins.dat": {
+      "ServerCommandHideAdmins": {
         "RunningErrorText": "Failed to hide admins while running.",
         "HideAdminsCommandText": "Hide_Admins",
         "HideAdminsInfoText": "Hide_Admins",
         "HideAdminsHelpText": "This hides the visibility of admin labels from players.",
         "HideAdminsText": "Successfully hid admins."
       },
-      "ServerCommandKick.dat": {
+      "ServerCommandKick": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Reason].",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to kick player while not running.",
@@ -3170,7 +3156,7 @@
         "KickText": "Successfully kicked {0}!",
         "KickTextReason": "unspecified"
       },
-      "ServerCommandKill.dat": {
+      "ServerCommandKill": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player].",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to kill player while not running.",
@@ -3179,7 +3165,7 @@
         "KillHelpText": "This kills the specified player in-game.",
         "KillText": "Successfully killed {0}!"
       },
-      "ServerCommandLoadout.dat": {
+      "ServerCommandLoadout": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SkillsetID]/[ItemID]/[ItemID]/...",
         "InvalidSkillsetIDErrorText": "Failed to convert {0} into an SkillsetID.",
         "InvalidItemIDErrorText": "Failed to convert {0} into an ItemID.",
@@ -3188,7 +3174,7 @@
         "LoadoutHelpText": "This gives players each item when spawning. Using a skillset ID of 255 gives the item to everyone.",
         "LoadoutText": "Successfully set loadout {0}!"
       },
-      "ServerCommandLog.dat": {
+      "ServerCommandLog": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Chat]/[Join/Leave]/[Death]/[Anticheat].",
         "InvalidBooleanErrorText": "Failed to convert {0} into a boolean.",
         "LogCommandText": "Log",
@@ -3196,7 +3182,7 @@
         "LogHelpText": "This assigns the console log options.",
         "LogText": "Successfully set log!"
       },
-      "ServerCommandMap.dat": {
+      "ServerCommandMap": {
         "NoMapErrorText": "Failed to find map called {0}.",
         "RunningErrorText": "Failed to change map while running.",
         "MapCommandText": "Map",
@@ -3204,7 +3190,7 @@
         "MapHelpText": "This sets the map that the server loads on startup.",
         "MapText": "Successfully set map to {0}!"
       },
-      "ServerCommandMaxPlayers.dat": {
+      "ServerCommandMaxPlayers": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "MinNumberErrorText": "Failed to make max players less than {0}.",
         "MaxNumberErrorText": "Failed to make max players greater than {0}.",
@@ -3213,7 +3199,7 @@
         "MaxPlayersHelpText": "This sets the maximum number of connections the server is willing to accept.",
         "MaxPlayersText": "Successfully set max players to {0}!"
       },
-      "ServerCommandMode.dat": {
+      "ServerCommandMode": {
         "NoModeErrorText": "Failed to find gamemode called {0}.",
         "RunningErrorText": "Failed to change gamemode while running.",
         "ModeCommandText": "Mode",
@@ -3224,7 +3210,7 @@
         "ModeNormal": "Normal",
         "ModeHard": "Hard"
       },
-      "ServerCommandModules.dat": {
+      "ServerCommandModules": {
         "NoModulesErrorText": "Failed to find any loaded modules.",
         "ModulesCommandText": "Modules",
         "ModulesInfoText": "Modules",
@@ -3233,7 +3219,7 @@
         "Version": "Version: {0}",
         "SeparatorText": "------------------------------"
       },
-      "ServerCommandName.dat": {
+      "ServerCommandName": {
         "MinLengthErrorText": "Failed to make name length less than {0}.",
         "MaxLengthErrorText": "Failed to make name length greater than {0}.",
         "NameCommandText": "Name",
@@ -3241,7 +3227,7 @@
         "NameHelpText": "This assigns the name of the server on the server list.",
         "NameText": "Successfully set name to {0}!"
       },
-      "ServerCommandNight.dat": {
+      "ServerCommandNight": {
         "NightCommandText": "Night",
         "NightInfoText": "Night",
         "NightHelpText": "This assigns the current time to night.",
@@ -3250,7 +3236,7 @@
         "ArenaErrorText": "Failed to set time on an arena map.",
         "NightText": "Successfully set time to night!"
       },
-      "ServerCommandOwner.dat": {
+      "ServerCommandOwner": {
         "InvalidSteamIDErrorText": "Failed to convert {0} into a Steam ID.",
         "RunningErrorText": "Failed to set owner while running.",
         "OwnerCommandText": "Owner",
@@ -3258,7 +3244,7 @@
         "OwnerHelpText": "This sets the owner of the server.",
         "OwnerText": "Successfully set owner to {0}!"
       },
-      "ServerCommandPassword.dat": {
+      "ServerCommandPassword": {
         "RunningErrorText": "Failed to change password while running.",
         "PasswordCommandText": "Password",
         "PasswordInfoText": "Password [Text]",
@@ -3266,7 +3252,7 @@
         "DisableText": "Successfully disabled password!",
         "PasswordTextV2": "Successfully enabled password!"
       },
-      "ServerCommandPermit.dat": {
+      "ServerCommandPermit": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID]/[Tag].",
         "InvalidSteamIDErrorText": "Failed to convert {0} into a Steam ID.",
         "NotRunningErrorText": "Failed to permit player while not running. ",
@@ -3275,7 +3261,7 @@
         "PermitHelpText": "This adds the specified player to the list of users allowed to join the server.",
         "PermitText": "Successfully permitted {0} {1}!"
       },
-      "ServerCommandPermits.dat": {
+      "ServerCommandPermits": {
         "NoPermitsErrorText": "Failed to find any permits.",
         "PermitsCommandText": "Permits",
         "PermitsInfoText": "Permits",
@@ -3284,7 +3270,7 @@
         "PermitNameText": "PlayerID: {0} Tag: {1}",
         "PermitJudgeText": "JudgeID: {0}"
       },
-      "ServerCommandPlayers.dat": {
+      "ServerCommandPlayers": {
         "NoPlayersErrorText": "Failed to find any players.",
         "PlayersCommandText": "Players",
         "PlayersInfoText": "Players",
@@ -3292,7 +3278,7 @@
         "PlayersText": "Players:",
         "PlayerIDText": "PlayerID: {0} Name: {1} Character: {2} Ping: {3}"
       },
-      "ServerCommandPort.dat": {
+      "ServerCommandPort": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "RunningErrorText": "Failed to change port while running.",
         "PortCommandText": "Port",
@@ -3300,14 +3286,14 @@
         "PortHelpText": "This assigns the port of the server. Servers use two consecutive ports: the first for server list queries, and the second for in-game traffic. The first should be configured here, but both should be opened on the router.",
         "PortText": "Successfully set port to {0}!"
       },
-      "ServerCommandPvE.dat": {
+      "ServerCommandPvE": {
         "RunningErrorText": "Failed to enable PvE while running.",
         "PvECommandText": "PvE",
         "PvEInfoText": "PvE",
         "PvEHelpText": "This disables player-versus-player combat, in favor of player-versus-environment combat.",
         "PvEText": "Successfully enabled PvE."
       },
-      "ServerCommandQuest.dat": {
+      "ServerCommandQuest": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Quest].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
@@ -3318,7 +3304,7 @@
         "QuestHelpText": "This gives a player a flag.",
         "QuestText": "Successfully gave {0} quest {1}!"
       },
-      "ServerCommandQueue.dat": {
+      "ServerCommandQueue": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "MaxNumberErrorText": "Failed to make max queue size greater than {0}.",
         "QueueCommandText": "Queue_Size",
@@ -3326,12 +3312,12 @@
         "QueueHelpText": "This sets the maximum number of queued connections the server is willing to hold on to.",
         "QueueText": "Successfully set queue size to {0}!"
       },
-      "ServerCommandReload.dat": {
+      "ServerCommandReload": {
         "ReloadCommandText": "Reload",
         "ReloadInfoText": "Reload [GUID]",
         "ReloadHelpText": "This reloads an asset by GUID."
       },
-      "ServerCommandReputation.dat": {
+      "ServerCommandReputation": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Reputation].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
@@ -3342,19 +3328,19 @@
         "ReputationHelpText": "This gives a player some reputation.",
         "ReputationText": "Successfully gave {0} {1} reputation!"
       },
-      "ServerCommandResetConfig.dat": {
+      "ServerCommandResetConfig": {
         "ResetConfigCommandText": "ResetConfig",
         "ResetConfigInfoText": "ResetConfig",
         "ResetConfigHelpText": "This resets the config file to the default values.",
         "ResetConfigText": "Successfully reset config!"
       },
-      "ServerCommandSave.dat": {
+      "ServerCommandSave": {
         "SaveCommandText": "Save",
         "SaveInfoText": "Save",
         "SaveHelpText": "This forces a proper save of the server state.",
         "SaveText": "Successfully saved the game."
       },
-      "ServerCommandSay.dat": {
+      "ServerCommandSay": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Text]/[R]/[G]/[B].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NotRunningErrorText": "Failed to say while not running.",
@@ -3362,7 +3348,7 @@
         "SayInfoText": "Say [Text]/[R]/[G]/[B]",
         "SayHelpText": "This broadcasts a message to all of the connected clients."
       },
-      "ServerCommandShutdown.dat": {
+      "ServerCommandShutdown": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Delay]/[Explanation].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "ShutdownCommandText": "Shutdown",
@@ -3370,7 +3356,7 @@
         "ShutdownHelpText": "This properly saves the server state, disconnects the clients and closes the program.",
         "ShutdownText": "Succesfully set shutdown delay!"
       },
-      "ServerCommandSlay.dat": {
+      "ServerCommandSlay": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Reason].",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to slay player while not running.",
@@ -3380,7 +3366,7 @@
         "SlayText": "Successfully slayed {0}!",
         "SlayTextReason": "unspecified"
       },
-      "ServerCommandSpy.dat": {
+      "ServerCommandSpy": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player].",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to kick player while not running.",
@@ -3389,14 +3375,14 @@
         "SpyHelpText": "This requests a screenshot from the target player and saves it on the caller's computer as Spy.jpg.",
         "SpyText": "Successfully taking a screenshot of {0}."
       },
-      "ServerCommandSync.dat": {
+      "ServerCommandSync": {
         "RunningErrorText": "Failed to enable sync while running.",
         "SyncCommandText": "Sync",
         "SyncInfoText": "Sync",
         "SyncHelpText": "This allows players to share savedata between your servers.",
         "SyncText": "Successfully enabled sync."
       },
-      "ServerCommandTeleport.dat": {
+      "ServerCommandTeleport": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[SteamID | Player | Location].",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NoLocationErrorText": "Failed to find anyone or anywhere called {0}.",
@@ -3412,7 +3398,7 @@
         "BedCommand": "Bed",
         "BedText": "bed"
       },
-      "ServerCommandTime.dat": {
+      "ServerCommandTime": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "NotRunningErrorText": "Failed to set time while not running.",
         "HordeErrorText": "Failed to set time on a horde map.",
@@ -3422,7 +3408,7 @@
         "TimeHelpText": "This assigns the current time in seconds of the day-night cycle.",
         "TimeText": "Successfully set time to {0}!"
       },
-      "ServerCommandTimeout.dat": {
+      "ServerCommandTimeout": {
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "MinNumberErrorText": "Failed to make timeout less than {0}.",
         "MaxNumberErrorText": "Failed to make timeout greater than {0}.",
@@ -3431,7 +3417,7 @@
         "TimeoutHelpText": "This assigns a maximum ping threshold to the server before a client is kicked.",
         "TimeoutText": "Successfully set timeout to {0}!"
       },
-      "ServerCommandUnadmin.dat": {
+      "ServerCommandUnadmin": {
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to unadmin player while not running.",
         "UnadminCommandText": "Unadmin",
@@ -3439,7 +3425,7 @@
         "UnadminHelpText": "This removes the specified player from the list of users allowed to use admin commands in the chat.",
         "UnadminText": "Successfully unadmined {0}!"
       },
-      "ServerCommandUnban.dat": {
+      "ServerCommandUnban": {
         "InvalidSteamIDErrorText": "Failed to convert {0} into a Steam ID.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to unban player while not running.",
@@ -3448,7 +3434,7 @@
         "UnbanHelpText": "This removes the specified player from the list of users not allowed to join the server.",
         "UnbanText": "Successfully unbanned {0}!"
       },
-      "ServerCommandUnpermit.dat": {
+      "ServerCommandUnpermit": {
         "InvalidSteamIDErrorText": "Failed to convert {0} into a Steam ID.",
         "NoPlayerErrorText": "Failed to find anyone called {0}.",
         "NotRunningErrorText": "Failed to unpermit player while not running.",
@@ -3457,7 +3443,7 @@
         "UnpermitHelpText": "This removes the specified player from the list of users allowed to join the server.",
         "UnpermitText": "Successfully unpermitted {0}!"
       },
-      "ServerCommandVehicle.dat": {
+      "ServerCommandVehicle": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[VehicleID].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "InvalidVehicleIDErrorText": "Failed to convert {0} into a VehicleID.",
@@ -3470,7 +3456,7 @@
         "VehicleHelpText": "This gives a player a vehicle.",
         "VehicleText": "Successfully gave {0} {1}!"
       },
-      "ServerCommandVotify.dat": {
+      "ServerCommandVotify": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Vote Allowed Y/N]/[Pass Cooldown]/[Fail Cooldown]/[Vote Duration]/[Vote Percentage]/[Players].",
         "InvalidBooleanErrorText": "Failed to convert {0} into a boolean.",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
@@ -3479,7 +3465,7 @@
         "VotifyHelpText": "This configures voting for the server.",
         "VotifyText": "Successfully set voting configuration!"
       },
-      "ServerCommandWeather.dat": {
+      "ServerCommandWeather": {
         "NoWeatherErrorText": "Failed to find weather called {0}.",
         "WeatherCommandText": "Weather",
         "WeatherInfoText": "Weather [None | Disable | Storm | Blizzard | GUID]",
@@ -3490,7 +3476,7 @@
         "WeatherStorm": "Storm",
         "WeatherBlizzard": "Blizzard"
       },
-      "ServerCommandWelcome.dat": {
+      "ServerCommandWelcome": {
         "InvalidParameterErrorText": "Failed to find parameters in format [Text]/[R]/[G]/[B].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "WelcomeCommandText": "Welcome",
@@ -3498,14 +3484,14 @@
         "WelcomeHelpText": "This sets a welcome message shown to clients once they connect.",
         "WelcomeText": "Successfully set welcome message to {0}!"
       },
-      "ServerCommandWhitelisted.dat": {
+      "ServerCommandWhitelisted": {
         "RunningErrorText": "Failed to enable whitelist while running.",
         "WhitelistedCommandText": "Whitelisted",
         "WhitelistedInfoText": "Whitelisted",
         "WhitelistedHelpText": "This makes only permitted players allowed to join the server.",
         "WhitelistedText": "Successfully enabled whitelist."
       },
-      "ServerConsole.dat": {
+      "ServerConsole": {
         "InsecureWarningText": "WARNING: VALVE ANTI-CHEAT IS DISABLED",
         "ServerCode": "Server Code: {0}",
         "ServerCodeDetails": "Your friends can enter this code in the Connect Directly menu to join without port forwarding.",
@@ -3567,6 +3553,8 @@
         "Rich_Presence_Lobby": "In Lobby",
         "Say": "Server",
         "Console": "Console",
+        "UGC_Fail": "Failed to submit.",
+        "UGC_Success": "Successfully submitted!",
         "Map_Missing": "Failed to find map {0}, defaulting to {1}!",
         "Overlay": "Steam overlay needs to be enabled.",
         "Shutdown": "Shutdown in: {0}",
@@ -3589,7 +3577,7 @@
       }
     },
     "Shared": {
-      "KeyCodes.dat": {
+      "KeyCodes": {
         "Alpha1": "1",
         "Alpha2": "2",
         "Alpha3": "3",
