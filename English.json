@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.0",
-    "gameVersion": "3.23.14.3"
+    "gameVersion": "3.24.1.0"
   },
   "localization": {
     "Editor": {
@@ -875,6 +875,10 @@
         "SteamNetworkingSockets_EndReason_Misc_SteamConnectivity": "Steam is experiencing connectivity issues.",
         "SteamNetworkingSockets_EndReason_Misc_Unknown": "Unknown miscellaneous connection error: {0}",
         "SteamNetworkingSockets_EndReason_Unknown": "Connected ended for unknown reason: {0}",
+        "UGC_NeedsToAcceptWorkshopLegalAgreement": "Failed to create or update item because you need to accept the newest Steam Workshop legal agreement.",
+        "UGC_UnknownResult": "Failed to create or update item. Steam error code: {0}",
+        "UGC_IOError": "Failed to create or update item because of an unknown I/O issue.",
+        "UGC_Success": "Successfully submitted to Steam!",
         "Pro_Title": "Permanent Gold Upgrade",
         "Pro_Button": "Gain access to extra character customization, premium servers, character slots and more by upgrading to a Gold account! Further details available on the store page.",
         "Pro_Button_Tooltip": "Click here to view the store page.",
@@ -1005,7 +1009,11 @@
           "LobbiesButtonText": "Lobby",
           "LobbiesButtonTooltip": "Form a party with your friends to join the same server as a group.",
           "TutorialButtonText": "Tutorial",
-          "TutorialButtonTooltip": "Tutorial"
+          "TutorialButtonTooltip": "Learn the gameplay basics.",
+          "Tutorial_Confirm_Label": "Play",
+          "Tutorial_Confirm_Tooltip": "Proceed with opening the tutorial.",
+          "Tutorial_Deny_Label": "Cancel",
+          "Tutorial_Deny_Tooltip": "Cancel opening the tutorial.  "
         },
         "MenuPlayConfig": {
           "Items": "Items",
@@ -2096,6 +2104,12 @@
         "Zoom_Out_Button_Tooltip": "Scale Down",
         "Center_Button": "Center",
         "Center_Button_Tooltip": "Focus Player",
+        "ShowMarkersToggle_Label": "Show Markers",
+        "ShowMarkersToggle_Tooltip": "Toggle visibility of markers placed on the map.",
+        "ShowPlayerNamesToggle_Label": "Show Player Names",
+        "ShowPlayerNamesToggle_Tooltip": "Toggle visibility of other players' names.",
+        "ShowPlayerAvatarsToggle_Label": "Show Player Avatars",
+        "ShowPlayerAvatarsToggle_Tooltip": "Toggle visibility of other players' avatars.",
         "Chart": "Chart",
         "Satellite": "Satellite",
         "Quests": "Quests: {0}",
@@ -3097,6 +3111,13 @@
         "FlagHelpText": "This sets a player's flag.",
         "FlagText": "Successfully set {0} flag {1} to {2}!"
       },
+      "ServerCommandGSLT": {
+        "RunningErrorText": "Cannot change login token while server running.",
+        "GSLTCommandText": "GSLT",
+        "GSLTInfoText": "GSLT [Login Token]",
+        "GSLTHelpText": "This sets the game server login token.",
+        "SetText": "Successfully set game server login token."
+      },
       "ServerCommandGameMode": {
         "NoModeErrorText": "Failed to find gamemode called {0}.",
         "RunningErrorText": "Failed to change gamemode while running.",
@@ -3124,13 +3145,6 @@
         "GoldInfoText": "Gold",
         "GoldHelpText": "This marks the server as joinable only by Gold members.",
         "GoldText": "Successfully set gold status!"
-      },
-      "ServerCommandGSLT": {
-        "RunningErrorText": "Cannot change login token while server running.",
-        "GSLTCommandText": "GSLT",
-        "GSLTInfoText": "GSLT [Login Token]",
-        "GSLTHelpText": "This sets the game server login token.",
-        "SetText": "Successfully set game server login token."
       },
       "ServerCommandHelp": {
         "NoCommandErrorText": "Failed to find a command called {0}.",
@@ -3553,8 +3567,6 @@
         "Rich_Presence_Lobby": "In Lobby",
         "Say": "Server",
         "Console": "Console",
-        "UGC_Fail": "Failed to submit.",
-        "UGC_Success": "Successfully submitted!",
         "Map_Missing": "Failed to find map {0}, defaulting to {1}!",
         "Overlay": "Steam overlay needs to be enabled.",
         "Shutdown": "Shutdown in: {0}",
