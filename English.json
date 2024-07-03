@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.24.3.3"
+    "gameVersion": "3.24.4.0"
   },
   "localization": {
     "Editor": {
@@ -452,7 +452,20 @@
           "Display_Button_Text": "Display",
           "Display_Button_Tooltip": "Display",
           "Controls_Button_Text": "Controls",
-          "Controls_Button_Tooltip": "Controls"
+          "Controls_Button_Tooltip": "Controls",
+          "Audio_Button_Text": "Audio",
+          "Audio_Button_Tooltip": "Sound"
+        },
+        "MenuConfigurationAudio": {
+          "Volume_Slider_Label": "Master Volume [{0}]",
+          "Game_Volume_Slider_Label": "Game Volume [{0}]",
+          "Unfocused_Volume_Slider_Label": "Volume While Alt-Tabbing [{0}]",
+          "Loading_Screen_Music_Volume_Slider_Label": "Loading Screen Music Volume [{0}]",
+          "Voice_Slider_Label": "Voice Chat Volume [{0}]",
+          "Music_Toggle_Label": "Play Menu/Death Music",
+          "Music_Toggle_Tooltip": "Also affects \"ambiance volumes\" with music.",
+          "Ambience_Toggle_Label": "Play Day/Night Ambience",
+          "Ambience_Toggle_Tooltip": "Background wind, crickets, rustling, etc."
         },
         "MenuConfigurationControls": {
           "Sensitivity_Field_Label": "Mouse Aim Sensitivity (Degrees per Pixel)",
@@ -567,6 +580,8 @@
           "User_Interface_Scale_Field_Label": "UI Scale",
           "UseTargetFrameRate_Toggle_Label": "Limit Framerate",
           "TargetFrameRate_Field_Label": "Max Framerate",
+          "UseUnfocusedTargetFrameRate_Toggle_Label": "Limit Framerate While Alt-Tabbing",
+          "UnfocusedTargetFrameRate_Field_Label": "Max Framerate While Alt-Tabbing",
           "Fullscreen_Mode_Label": "Fullscreen Mode",
           "Fullscreen_Mode_Tooltip": "How game shares the display",
           "Fullscreen_Mode_Exclusive": "Exclusive",
@@ -681,11 +696,7 @@
         "MenuConfigurationOptions": {
           "FOV_Slider_LabelV2_Name": "Field of View",
           "FOV_Slider_LabelV2_Value": "Horizontal [{0}°] Vertical [{1}°]",
-          "Volume_Slider_Label": "Master Volume [{0}%]",
-          "Voice_Slider_Label": "Voice Chat Volume [{0}%]",
-          "Loading_Screen_Music_Volume_Slider_Label": "Loading Screen Music Volume [{0}%]",
           "Debug_Toggle_Label": "Show FPS/Ping",
-          "Music_Toggle_Label": "Play Menu/Death Music",
           "Splashscreen_Toggle_Label": "Splashscreen",
           "Timer_Toggle_Label": "Arena Timer Warning",
           "Physics_Toggle_Label": "Item Physics",
@@ -698,7 +709,6 @@
           "VoiceAlwaysRecording_Label": "Keep Microphone Ready",
           "VoiceAlwaysRecording_Tooltip": "Avoid hitches related to starting and stopping recording by muting rather than stopping.",
           "Hints_Toggle_Label": "Show Hints",
-          "Ambience_Toggle_Label": "Play Day/Night Ambience",
           "Streamer_Toggle_Label": "Streamer Mode",
           "Featured_Workshop_Toggle_Label": "Featured Workshop",
           "Show_Hotbar_Toggle_Label": "Show Hotbar",
@@ -736,6 +746,9 @@
           "HitmarkerStyle_Animated": "Animated",
           "HitmarkerStyle_Classic": "Classic",
           "HitmarkerStyle_Label": "Hitmarker Style",
+          "VehicleThirdPersonCameraMode_RotationDetached": "Rotation Detached",
+          "VehicleThirdPersonCameraMode_RotationAttached": "Rotation Attached",
+          "VehicleThirdPersonCameraMode_Label": "Vehicle Third-Person Camera Style",
           "Crosshair_Box": "Crosshair Color",
           "Hitmarker_Box": "Hitmarker Color",
           "Critical_Hitmarker_Box": "Critical Hitmarker Color",
@@ -788,6 +801,7 @@
         "Hash_Level": "This server is using a modified version of the map.",
         "Hash_Assembly": "This server is using modified code.",
         "Hash_Resources": "Built-in resources mismatch. Verifying game files should repair this.",
+        "SkinColorWithinThresholdOfTerrainColor": "Your character's skin color is too similar to one of the level's terrain colors. Please change your character's skin color or switch to a different character.",
         "Version": "This server is running version {0} of the game, whereas you are running version {1}.",
         "Pro_Server": "You require Gold to join this server.",
         "Pro_Character": "Please select a valid character.",
@@ -1709,7 +1723,7 @@
           "Craft_Ragdoll_Effect_Removal_Tool": "<color=gold>Ragdoll Modifier Removal Tool</color>",
           "Craft_ProgressPridePin": "<color=rare>Progress Pride Pin</color> (Pride Month)",
           "Craft_ProgressPrideJersey": "<color=rare>Progress Pride Jersey</color> (Pride Month)",
-          "Craft_PBS": "<color=uncommon>Random Escalation Free Item</color> (Escalation Release Event)",
+          "Craft_AnniversaryTophat": "<color=gold>10th Anniversary Mystery Tophat</color>",
           "Origin_Craft": "You crafted an item!",
           "Origin_Purchase": "Purchase successful!",
           "No_Items": "Waiting for Steam inventory response...",
@@ -2246,6 +2260,7 @@
         "Type_45": "Tool",
         "Type_46": "Compass",
         "Type_47": "Oil Pump",
+        "Type_48": "Paint",
         "Hotkey_Set": "Hotkey: {0}",
         "Hotkey_Unset": "Hotkey: [3-9]",
         "Rarity_Type_Label": "{0} {1}",
@@ -2285,6 +2300,7 @@
         "ItemDescription_ZoomFactor": "Zoom: {0}x",
         "ItemDescription_ThirdPersonZoomFactor": "Zoom (3rd-Person): {0}x",
         "ItemDescription_BulletGravityModifier": "Bullet Gravity: {0}",
+        "ItemDescription_InvulnerableModifier": "Upgrades gun to Heavy Weapon: Can damage Tough entities.",
         "ItemDescription_Consumeable_Explosive": "Explodes when consumed.",
         "ItemDescription_Consumeable_HealthPositive": "Restores Health: {0}",
         "ItemDescription_Consumeable_HealthNegative": "Damages Health: {0}",
@@ -2790,6 +2806,10 @@
         "PlacementObstructedBy": "Blocked by: {0}",
         "PlacementObstructedByGround": "Cannot Build Underground",
         "FreeformBuildableNotAllowed": "Freeform Buildables Not Allowed",
+        "NotPaintable": "Not Paintable",
+        "VehicleGear_Reverse": "R",
+        "VehicleGear_Neutral": "N",
+        "VehicleEngineStatus": "Gear: {0} RPM: {1}",
         "Chat_Global": "[World] {0}: {1}",
         "Chat_Local": "[Area] {0}: {1}",
         "Chat_Group": "[Group] {0}: {1}",
@@ -2896,6 +2916,8 @@
         "Display_Button_Tooltip": "Display",
         "Controls_Button_Text": "Controls",
         "Controls_Button_Tooltip": "Controls",
+        "Audio_Button_Text": "Audio",
+        "Audio_Button_Tooltip": "Sound",
         "Exit_Button_Text": "Exit",
         "Exit_Button_Timer": "Exit [{0}]",
         "Exit_Button_Tooltip": "Return to main menu.",
