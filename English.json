@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.24.4.0"
+    "gameVersion": "3.24.4.1"
   },
   "localization": {
     "Editor": {
@@ -3163,7 +3163,7 @@
         "GameModeText": "Successfully set gamemode to {0}!"
       },
       "ServerCommandGive": {
-        "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[ItemID]/[Amount].",
+        "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[ItemID | Name]/[Amount].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "InvalidItemIDErrorText": "Failed to convert {0} into an ItemID.",
         "NoItemIDErrorText": "Failed to find any item called {0}.",
@@ -3171,7 +3171,7 @@
         "NotRunningErrorText": "Failed to give player item while not running.",
         "CheatsErrorText": "Failed to give item with cheats disabled.",
         "GiveCommandText": "Give",
-        "GiveInfoText": "Give [SteamID | Player]/[ItemID]/[Amount]",
+        "GiveInfoText": "Give [SteamID | Player]/[ItemID | Name]/[Amount]",
         "GiveHelpText": "This gives a player an item.",
         "GiveText": "Successfully gave {0} {1} x{2}!"
       },
@@ -3364,8 +3364,8 @@
       },
       "ServerCommandReload": {
         "ReloadCommandText": "Reload",
-        "ReloadInfoText": "Reload [GUID]",
-        "ReloadHelpText": "This reloads an asset by GUID."
+        "ReloadInfoText": "Reload [GUID | Path]",
+        "ReloadHelpText": "This reloads an asset by GUID or an absolute directory path."
       },
       "ServerCommandReputation": {
         "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[Reputation].",
@@ -3494,7 +3494,7 @@
         "UnpermitText": "Successfully unpermitted {0}!"
       },
       "ServerCommandVehicle": {
-        "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[VehicleID].",
+        "InvalidParameterErrorText": "Failed to find parameters in format [SteamID | Player]/[VehicleID | Name].",
         "InvalidNumberErrorText": "Failed to convert {0} into a number.",
         "InvalidVehicleIDErrorText": "Failed to convert {0} into a VehicleID.",
         "NoVehicleIDErrorText": "Failed to find any vehicle called {0}.",
@@ -3502,7 +3502,7 @@
         "NotRunningErrorText": "Failed to give player vehicle while not running.",
         "CheatsErrorText": "Failed to give vehicle with cheats disabled.",
         "VehicleCommandText": "Vehicle",
-        "VehicleInfoText": "Vehicle [SteamID | Player]/[VehicleID]",
+        "VehicleInfoText": "Vehicle [SteamID | Player]/[VehicleID | Name]",
         "VehicleHelpText": "This gives a player a vehicle.",
         "VehicleText": "Successfully gave {0} {1}!"
       },
