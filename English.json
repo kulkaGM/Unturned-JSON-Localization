@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.24.7.1"
+    "gameVersion": "3.25.1.0"
   },
   "localization": {
     "Editor": {
@@ -578,7 +578,8 @@
           "Key_71_Button": "Item #8 [{0}]",
           "Key_72_Button": "Item #9 [{0}]",
           "Key_73_Button": "Item #10 [{0}]",
-          "Key_74_Button": "Release Cursor [{0}]"
+          "Key_74_Button": "Release Cursor [{0}]",
+          "Key_75_Button": "Context Action Skip Crafting Menu [{0}]"
         },
         "MenuConfigurationDisplay": {
           "Buffer_Toggle_Label": "VSync",
@@ -705,6 +706,8 @@
           "Chat_Voice_Out_Toggle_Label": "Enable Outbound Voice Chat",
           "VoiceAlwaysRecording_Label": "Keep Microphone Ready",
           "VoiceAlwaysRecording_Tooltip": "Avoid hitches related to starting and stopping recording by muting rather than stopping.",
+          "ShowOutboundVoiceChatOffHint_Label": "Show Outbound Voice Off Hint",
+          "ShowOutboundVoiceChatOffHint_Tooltip": "Shows a muted icon in HUD when outbound voice chat is off.",
           "Hints_Toggle_Label": "Show Hints",
           "Streamer_Toggle_Label": "Streamer Mode",
           "Featured_Workshop_Toggle_Label": "Featured Workshop",
@@ -876,6 +879,7 @@
         "Server_MaxPlayers_Advertisement_Mismatch": "Server advertised a different max player count than what it is currently set to.",
         "Server_CameraMode_Advertisement_Mismatch": "Server advertised a different camera mode than what it is currently set to.",
         "Server_PvP_Advertisement_Mismatch": "Server advertised a different PvP or PvE combat mode than what it is currently set to.",
+        "HWID_Modified": "Hardware ID (HWID) spoofer detected.",
         "SteamNetworkingSockets_Unavailable_CannotTry": "Unable to initialize Steam network authentication.",
         "SteamNetworkingSockets_Unavailable_Failed": "Failed to initialize Steam network authentication.",
         "SteamNetworkingSockets_Unavailable_Previously": "Temporarily unable to initialize Steam network authentication.",
@@ -939,6 +943,7 @@
         "Queue_Position": "Queue Position: #{0}",
         "Queue_Cancel": "Cancel",
         "Queue_Cancel_Tooltip": "Leave queue",
+        "PingMismatchWarning": "Warning: the in-game ping ({0} ms) is higher than the server browser ping ({1} ms), likely due to a DDoS protection mechanism. High ping may cause laggier gameplay than expected.",
         "Creators": "Created by:",
         "Collaborators": "Created in collaboration with:",
         "Thanks": "Special thanks to:"
@@ -999,7 +1004,8 @@
         "Orientation": "You can rotate items in your inventory by pressing [{0}].",
         "Red": "Your critical hitmarker color setting also affects the color of glowing sights.",
         "Steady": "You can steady your scope by holding [{0}] while aiming. Remember to account for bullet drop and travel time!",
-        "Streamer": "You can customize the names used in streamer mode by modifying StreamerNames.json, maybe with viewer/subscriber names!"
+        "Streamer": "You can customize the names used in streamer mode by modifying StreamerNames.json, maybe with viewer/subscriber names!",
+        "SkipActionCraftingMenu": "You can skip the crafting menu when performing an action in an item's context menu by holding [{0}] while clicking it."
       },
       "MenuTitle": {
         "Author_Label": "by {1}    //    Version {0}",
@@ -1286,6 +1292,13 @@
           "URL_Tooltip": "Link to a curator's list hosted on the Internet.",
           "AddURLButton_Label": "Add Curator",
           "AddURLButton_Tooltip": "Add a server curation list at the given URL to the ranking.",
+          "DefaultBehavior_Label": "Default Action",
+          "DefaultBehavior_Show_Label": "Show",
+          "DefaultBehavior_Show_Tooltip": "Servers not matching any rules are visible in the server browser. (default)",
+          "DefaultBehavior_Hide_Label": "Hide",
+          "DefaultBehavior_Hide_Tooltip": "Servers not matching any rules are hidden from the server browser.",
+          "DefaultBehavior_MoveToBottom_Label": "Move to Bottom",
+          "DefaultBehavior_MoveToBottom_Tooltip": "Servers not matching any rules are moved to the bottom of the server browser.",
           "DenyMode_Label": "Block Mode",
           "DenyMode_Hide_Label": "Hide",
           "DenyMode_Hide_Tooltip": "Servers matching a Deny rule are hidden from the server browser.",
@@ -1364,7 +1377,7 @@
           "Monetization_Monetized": "Monetization: Affects Gameplay",
           "HostBan_MonetizationWarning": "Warning: this server is breaking the monetization rules which took effect on June 11th 2021. Click here for more information.",
           "HostBan_WorkshopWarning": "Warning: the workshop files used by this server have been banned.",
-          "HostBan_QueryPingWarning": "Warning: this server is using an \"anycast\" proxy and may have much higher in-game ping than shown.",
+          "HostBan_QueryPingWarning": "Warning: this server uses an \"anycast\" proxy for DDoS protection, so in-game ping may be higher than shown.",
           "HostBan_IncorrectMonetizationTagWarning": "Warning: this server has the monetization tag incorrectly set. \"None\" is for unmonetized or donation-only servers, and \"NonGameplay\" is for servers with purchases that do not provide a gameplay advantage.",
           "HostBan_HostingProvider": "This warning might apply to the hosting provider, not your specific server. For example if the hosting provider has been allowing a server to evade a ban by changing the ports multiple times.",
           "HostBan_Apology": "Message from the game developers: our apologies for mistakenly flagging your server! We are sorry for the trouble and will do our best to prevent it from happening again in the future.",
@@ -2513,6 +2526,7 @@
         "ItemDescription_Farmable_AffectedByRain": "Growth can be expedited by rainy weather.",
         "ItemDescription_Trap_BreaksBones": "Trap breaks bones.",
         "ItemDescription_Trap_DamagesTires": "Trap pierces tires.",
+        "ItemDescription_Trap_RequiresPower": "Trap requires electricity.",
         "ItemDescription_Trap_PlayerDamage": "Player Damage: {0}",
         "ItemDescription_Trap_ZombieDamage": "Zombie Damage: {0}",
         "ItemDescription_Trap_AnimalDamage": "Animal Damage: {0}",
@@ -2549,6 +2563,8 @@
         "Salvage_Button_Tooltip": "Salvage into component materials.",
         "Refill_Button": "Refill",
         "Refill_Button_Tooltip": "Refill with bullets.",
+        "ActionBlueprint_SkipCraftingTooltip": "Skip Crafting Menu [{0}]",
+        "ActionBlueprint_CraftAllTooltip": "Craft All [{0}]",
         "Attachments_Button": "Strip",
         "Attachments_Button_Tooltip": "Dismantle attachments.",
         "Craft_Rag_Button": "Craft Rag",
@@ -2852,7 +2868,7 @@
         "Bed_On": "Claim [{0}]",
         "Bed_Off": "Unclaim [{0}]",
         "Bed_Claimed": "Claimed",
-        "Bounds": "Out Of Bounds",
+        "Bounds": "No Building Here",
         "Experience": "+{0} Experience",
         "Storage": "Storage [{0}]",
         "Farm": "Harvest [{0}]",
@@ -2907,7 +2923,7 @@
         "Tutorial_Fire": "Fires keep you warm in freezing environments and give you an easy place to Cook [{0}] food.",
         "Claim": "Area Claimed",
         "Underwater": "Too Wet",
-        "Nav": "Too Far From Town",
+        "Nav": "Too Far From Zombies",
         "Spawn": "Too Near To Spawn",
         "Mobile": "Not Mobile",
         "Oil": "Missing Fuel Reserve",
