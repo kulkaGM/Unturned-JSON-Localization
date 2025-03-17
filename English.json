@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.1.0"
+    "gameVersion": "3.25.2.0"
   },
   "localization": {
     "Editor": {
@@ -812,7 +812,8 @@
         "Hash_Resources": "Built-in resources mismatch. Verifying game files should repair this.",
         "SkinColorWithinThresholdOfTerrainColor": "Your character's skin color is too similar to one of the level's terrain colors. Please change your character's skin color or switch to a different character.",
         "Steam_ID_Mismatch": "Your Steam account doesn't match the one used to connect to the server.",
-        "Connect_Rate_Limiting": "Received too many join requests, sorry! Please try again in a few minutes.",
+        "Connect_Rate_Limiting": "Received too many join requests from your connection, sorry! Please try again in a few minutes.",
+        "Bad_Packet_Rate_Limiting": "Something went wrong with your connection, sorry! Please try again in a few minutes.",
         "Version": "This server is running version {0} of the game, whereas you are running version {1}.",
         "Pro_Server": "You require Gold to join this server.",
         "Pro_Character": "Please select a valid character.",
@@ -2563,6 +2564,10 @@
         "Salvage_Button_Tooltip": "Salvage into component materials.",
         "Refill_Button": "Refill",
         "Refill_Button_Tooltip": "Refill with bullets.",
+        "Stack_Button": "Stack",
+        "Stack_Button_Tooltip": "Consolidate items into a bundle.",
+        "Unstack_Button": "Unstack",
+        "Unstack_Button_Tooltip": "Separate bundle into individual items.",
         "ActionBlueprint_SkipCraftingTooltip": "Skip Crafting Menu [{0}]",
         "ActionBlueprint_CraftAllTooltip": "Craft All [{0}]",
         "Attachments_Button": "Strip",
@@ -2992,6 +2997,7 @@
         "Salute": "Salute",
         "Rest": "Rest",
         "Facepalm": "Facepalm",
+        "Gesture_TPose": "T-Pose",
         "Round": "Wave: {0}",
         "Score": "Score: {0}",
         "Stat_Tracker_Total_Kills": "Total Kills [{0}]",
