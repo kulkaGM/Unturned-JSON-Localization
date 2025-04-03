@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.3.1"
+    "gameVersion": "3.25.4.0"
   },
   "localization": {
     "Editor": {
@@ -1865,6 +1865,7 @@
           "Craft_AnniversaryTophat": "<color=gold>10th Anniversary Mystery Tophat</color>",
           "Craft_21077": "<color=gold>Artisan's Makeshift Mystery Box</color>",
           "Craft_1447": "<color=gold>Artisan's Makeshift Mystery Box Complete Set</color>",
+          "Craft_1954": "<color=uncommon>Rio de Janeiro Remastered Random Playtime Drop</color>",
           "Origin_Craft": "You crafted an item!",
           "Origin_Purchase": "Purchase successful!",
           "PreviewOnCharacterLabel": "Preview on Character",
