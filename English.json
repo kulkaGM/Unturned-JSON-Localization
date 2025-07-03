@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.6.1"
+    "gameVersion": "3.25.7.0"
   },
   "localization": {
     "Editor": {
@@ -111,6 +111,9 @@
       },
       "EditorEnvironmentRoads": {
         "SelectionBoxLabelText": "Selection",
+        "SelectedAsset_Label": "Selected Asset",
+        "OnlyUsedAssets_Label": "Only In-use Assets",
+        "SearchHint": "Name Filter",
         "WidthFieldLabelText": "Width",
         "HeightFieldLabelText": "Height",
         "DepthFieldLabelText": "Depth",
@@ -122,9 +125,16 @@
         "IgnoreTerrainToggleLabelText": "Ignore Terrain",
         "LoopToggleLabelText": "Loop",
         "RoadIndexLabelText": "Road Index",
+        "RoadAsset_Label": "Road Asset",
+        "RoadAsset_Tooltip": "Optional asset to load materials and properties from.",
         "Mirror": "Mirror",
         "Aligned": "Aligned",
-        "Free": "Free"
+        "Free": "Free",
+        "ListMode_Legacy_Label": "Legacy",
+        "ListMode_Legacy_Tooltip": "Browse per-level Roads.unity3d bundle.",
+        "ListMode_RoadAssets_Label": "Road Assets",
+        "ListMode_RoadAssets_Tooltip": "Browse global/shared road assets.",
+        "ListMode_Label": "List Mode"
       },
       "EditorLevel": {
         "ObjectsButtonText": "Objects",
@@ -199,7 +209,8 @@
         "WantsWaterSurface": "Water Surface Visible",
         "RefreshCullingVolumes": "Refresh Objects",
         "RefreshCullingVolumes_Tooltip": "Update which objects are inside culling volumes.",
-        "PreviewCulling": "Preview Culling"
+        "PreviewCulling": "Preview Culling",
+        "WantsNoLightingPreview": "Preview No-Lighting Volumes"
       },
       "EditorPause": {
         "Save_Button": "Save",
@@ -630,6 +641,8 @@
           "Skybox_Reflection_Tooltip": "Render dynamic skybox into a cubemap for ambient lighting and reflections.",
           "Item_Icon_Anti_Aliasing_Label": "Item Icon Anti-Aliasing",
           "Item_Icon_Anti_Aliasing_Tooltip": "Prevents jagged pixel edges on inventory item icons.",
+          "Clutter_Label": "Load Clutter",
+          "Clutter_Tooltip": "Load small visual details without gameplay impact. Level must be reloaded for changes to apply. Requires map developer to support it.",
           "Far_Clip_Slider_Label": "Max Draw Distance [{0}%]",
           "Distance_Slider_Label": "Nearby Draw Distance [{0}%]",
           "Landmark_Slider_Label": "Landmark Draw Distance [{0}%]",
@@ -651,8 +664,8 @@
           "Planar_Reflection_Button_Tooltip": "Water reflection detail",
           "Water_Button_Label": "Water Quality",
           "Water_Button_Tooltip": "Water transparency, foam, waves and reflections",
-          "Scope_Button_Label": "Scope Quality",
-          "Scope_Button_Tooltip": "Dual-render scope resolution",
+          "Scope_Button_Label": "Dual-Render Scope Quality",
+          "Scope_Button_Tooltip": "Enables peripheral vision while using scopes, quality increases resolution",
           "Outline_Button_Label": "Outline Quality",
           "Outline_Button_Tooltip": "Highlight resolution and blur",
           "Terrain_Button_Label": "Terrain Quality",
@@ -759,6 +772,7 @@
           "FlashbangBrightness_Label": "Flashbang Intensity [{0}]",
           "CameraShakeIntensity_Label": "Explosion Camera Shake Intensity [{0}]",
           "SprintFovBoostIntensity_Label": "Sprint FoV Boost [{0}]",
+          "ViewmodelBobScale_Label": "First-Person Arms Bobbing [{0}]",
           "DamageFlinchMode_RollOnly": "Roll-Only",
           "DamageFlinchMode_Directional": "Directional",
           "DamageFlinchMode_Label": "Flinch Mode",
@@ -1243,8 +1257,13 @@
           "Allow_Trap_Placement_On_Vehicle": "Allow Trap Placement On Vehicle",
           "Max_Item_Distance_From_Hull": "Max Item Distance From Hull",
           "Max_Trap_Distance_From_Hull": "Max Trap Distance From Hull",
+          "FirstPerson_RecoilMultiplier": "First-Person Recoil Multiplier",
+          "FirstPerson_AimingRecoilMultiplier": "First-Person Aiming Recoil Multiplier",
+          "FirstPerson_AimingZoomRecoilReduction": "First-Person Aiming Zoom Recoil Reduction",
           "ThirdPerson_RecoilMultiplier": "Third-Person Recoil Multiplier",
-          "ThirdPerson_SpreadMultiplier": "Third-Person Spread Multiplier"
+          "ThirdPerson_SpreadMultiplier": "Third-Person Spread Multiplier",
+          "Viewmodel_AimingJumpLandMultiplier": "Viewmodel Aiming Jump/Land Shake Multiplier",
+          "Viewmodel_AimingMisalignmentMultiplier": "Viewmodel Aiming Misalignment Multiplier"
         },
         "MenuPlayConnect": {
           "Host_Field_Label": "Host or Server Code",
@@ -1378,6 +1397,8 @@
           "Bookmark_On_Button": "Add Bookmark",
           "Bookmark_Off_Button": "Remove Bookmark",
           "Bookmark_Button_Tooltip": "Toggle bookmark for quickly joining from Bookmarks menu.",
+          "CopyServerCode_Label": "Copy Server Code",
+          "CopyServerCode_Tooltip": "Your friends can connect directly to this server using this unique code.",
           "Players": "Players: {0}/{1}",
           "Details": "Details",
           "Map": "Map: {0}",
@@ -2335,7 +2356,8 @@
         "NotCraftable_MissingInputItem": "Missing {0}",
         "NotCraftable_MissingSkill": "Requires Skill",
         "NotCraftable_MissingCraftingTag": "Requires {0}",
-        "NotCraftable_UnmetConditions": "Conditions Unmet"
+        "NotCraftable_UnmetConditions": "Conditions Unmet",
+        "NotCraftable_Ignored": "You marked this blueprint Ignored"
       },
       "PlayerDashboardInformation": {
         "Zoom_In_Button": "Zoom In",
@@ -3153,6 +3175,8 @@
         "Suicide_Button_Deny": "No",
         "Suicide_Button_Deny_Tooltip": "Live",
         "Suicide_Disabled": "DISABLED",
+        "InviteFriends_Label": "Invite Friends",
+        "InviteFriends_Tooltip": "Open the Steam Overlay and select friends to invite to this server.",
         "Spy_Refresh_Button_Text": "Spy",
         "Spy_Refresh_Button_Tooltip": "Refresh",
         "Spy_Slay_Button_Text": "Slay",
@@ -3191,7 +3215,9 @@
           "Roofs": "Roofs",
           "Walls": "Walls",
           "Pillars": "Pillars",
-          "NoItems": "None Found"
+          "NoItems": "None Found",
+          "AvailableAmount": "Available: {0}",
+          "CraftableAmount": "Craftable: {0}"
         }
       }
     },
