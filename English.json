@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.8.3"
+    "gameVersion": "3.25.9.0"
   },
   "localization": {
     "Editor": {
@@ -1971,7 +1971,7 @@
           "Scrap_Text": "Scrap x{0}",
           "Scrap_Tooltip": "Salvage x{0} basic crafting materials.",
           "Overlay": "Steam overlay needs to be enabled.",
-          "Unknown": "Either your game is out of date (download the update) or something went horribly wrong!"
+          "Unknown": "This item might be from a newer version of the game. If your game is already up-to-date, please visit customer support for help."
         },
         "MenuSurvivorsGroup": {
           "Nick_Field_Label": "Private Name",
