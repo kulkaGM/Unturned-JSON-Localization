@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.9.0"
+    "gameVersion": "3.25.9.1"
   },
   "localization": {
     "Editor": {
@@ -3054,6 +3054,7 @@
         "PlacementObstructedByGround": "Cannot Build Underground",
         "FreeformBuildableNotAllowed": "Freeform Buildables Not Allowed",
         "NotPaintable": "Not Paintable",
+        "Inside_No_Structures_Volume": "Cannot Build Structures Here",
         "VehicleGear_Reverse": "R",
         "VehicleGear_Neutral": "N",
         "VehicleEngineStatus": "Gear: {0} RPM: {1}",
