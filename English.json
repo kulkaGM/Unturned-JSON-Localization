@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.25.9.2"
+    "gameVersion": "3.25.10.0"
   },
   "localization": {
     "Editor": {
@@ -1827,6 +1827,8 @@
           "Hair_Box_Tooltip": "Hair",
           "Beard_Box": "Beard Style",
           "Beard_Box_Tooltip": "Beard",
+          "Beard_Color_Box": "Beard Color",
+          "Beard_Color_Box_Tooltip": "Beard",
           "Right": "Right Handed",
           "Left": "Left Handed"
         },
@@ -2500,6 +2502,7 @@
         "Type_46": "Compass",
         "Type_47": "Oil Pump",
         "Type_48": "Paint",
+        "Type_49": "Vehicle Lockpick",
         "Hotkey_Set": "Hotkey: {0}",
         "Hotkey_Unset": "Hotkey: [3-9]",
         "Rarity_Type_Label": "{0} {1}",
@@ -2642,6 +2645,7 @@
         "ItemDescription_QualityConsumptionProbability": "Quality Decrease Chance: {0}",
         "ItemDescription_ProvidesCraftingTags": "Crafting Capabilities:",
         "ItemDescription_ListItem": "• {0}",
+        "ItemDescription_LockpickFailureProbability": "Failure Chance: {0}",
         "Equip_Button": "Equip",
         "Equip_Button_Tooltip": "Equip in your hands.",
         "Dequip_Button": "Dequip",
@@ -3055,6 +3059,7 @@
         "FreeformBuildableNotAllowed": "Freeform Buildables Not Allowed",
         "NotPaintable": "Not Paintable",
         "Inside_No_Structures_Volume": "Cannot Build Structures Here",
+        "Volume_Destroyed": "Inoperable",
         "VehicleGear_Reverse": "R",
         "VehicleGear_Neutral": "N",
         "VehicleEngineStatus": "Gear: {0} RPM: {1}",
