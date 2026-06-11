@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.26.3.2"
+    "gameVersion": "3.26.3.3"
   },
   "localization": {
     "Editor": {
@@ -929,6 +929,9 @@
         "SteamNetworkingSockets_EndReason_Misc_SteamConnectivity": "Steam is experiencing connectivity issues.",
         "SteamNetworkingSockets_EndReason_Misc_Unknown": "Unknown miscellaneous connection error: {0}",
         "SteamNetworkingSockets_EndReason_Unknown": "Connected ended for unknown reason: {0}",
+        "Mod_Name_Mismatch": "This server is playing \"{0}\", whereas you are playing \"{1}\".",
+        "Mod_Name_Server": "This server is playing a custom build of the game \"{0}\", whereas you are playing vanilla Unturned.",
+        "Mod_Version_Mismatch": "This server is running version {0} of {1}, whereas you are running version {2}.",
         "UGC_NeedsToAcceptWorkshopLegalAgreement": "Failed to create or update item because you need to accept the newest Steam Workshop legal agreement.",
         "UGC_UnknownResult": "Failed to create or update item. Steam error code: {0}",
         "UGC_IOError": "Failed to create or update item because of an unknown I/O issue.",
@@ -993,10 +996,10 @@
         "Credits_Button_Tooltip": "Everyone involved with Unturned.",
         "Forum_Button": "Forum",
         "Forum_Button_Tooltip": "Mature discussion boards.",
-        "Blog_Button": "Blog",
-        "Blog_Button_Tooltip": "Development and personal posts.",
+        "Blog_Button": "News",
+        "Blog_Button_Tooltip": "Development blog and announcements.",
         "Wiki_Button": "Wiki",
-        "Wiki_Button_Tooltip": "Community-run library. ",
+        "Wiki_Button_Tooltip": "Community-run library.",
         "Overlay": "Steam overlay needs to be enabled."
       },
       "MenuTips": {
@@ -1460,7 +1463,15 @@
           "ServerBlacklisted_Label": "This server is banned.",
           "ServerBlacklisted_Tooltip": "Cannot join because the server has been banned.",
           "NotLoggedInBlock_Label": "This server is not logged in.",
-          "NotLoggedInBlock_Tooltip": "Cannot join over the internet because GSLT is not set."
+          "NotLoggedInBlock_Tooltip": "Cannot join over the internet because GSLT is not set.",
+          "ServerNotModded_Label": "Server playing vanilla Unturned.",
+          "ServerNotModded_Tooltip": "Cannot join because you are playing a custom build of the game.",
+          "ServerIsModded_Label": "Server playing \"{0}\".",
+          "ServerIsModded_Tooltip": "Cannot join because the server is running a custom build of the game.",
+          "SeverDifferentMod_Label": "Different mod: \"{0}\"",
+          "ServerDifferentMod_Tooltip": "Cannot join because you are playing different custom builds of the game.",
+          "ServerDifferentModVersion_Label": "Server running a different mod version: {0}",
+          "ServerDifferentModVersion_Tooltip": "Cannot join because this server is running a different version of your installed mod."
         },
         "MenuPlayServers": {
           "Columns_Tooltip": "Change visible columns.",
