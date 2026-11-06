@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.1.1",
-    "gameVersion": "3.26.3.13"
+    "gameVersion": "3.26.3.14"
   },
   "localization": {
     "Editor": {
@@ -1423,7 +1423,7 @@
           "Monetization_None": "Monetization: None",
           "Monetization_NonGameplay": "Monetization: Non-Gameplay",
           "Monetization_Monetized": "Monetization: Affects Gameplay",
-          "HostBan_MonetizationWarning": "Warning: this server is breaking the monetization rules which took effect on June 11th 2021. Click here for more information.",
+          "HostBan_MonetizationWarning": "Warning: this server is breaking the game's monetization rules. Click here for more information.",
           "HostBan_WorkshopWarning": "Warning: the workshop files used by this server have been banned.",
           "HostBan_QueryPingWarning": "Warning: this server uses an \"anycast\" proxy for DDoS protection, so in-game ping may be higher than shown.",
           "HostBan_IncorrectMonetizationTagWarning": "Warning: this server has the monetization tag incorrectly set. \"None\" is for unmonetized or donation-only servers, and \"NonGameplay\" is for servers with purchases that do not provide a gameplay advantage.",
@@ -1994,7 +1994,9 @@
           "Nick_Field_Label": "Private Name",
           "Marker_Color_Box": "Marker Color",
           "Group_Box_Label": "Group",
-          "Group_Box": "No Group"
+          "Group_Box": "No Group",
+          "PrivateProfileChange_Header": "September 2026: Private Steam Profiles",
+          "PrivateProfileChange_Body": "As of September 2026, multiplayer servers are unable to verify your group membership if your profile is private. Valve have confirmed this is an intentional privacy-related fix. Click for workarounds and more info."
         }
       },
       "Workshop": {
